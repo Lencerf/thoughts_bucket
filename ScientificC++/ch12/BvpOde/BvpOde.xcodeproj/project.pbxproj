@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9524F7BE1C3CF67A00F47584 /* BoundaryConditions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9524F7BC1C3CF67A00F47584 /* BoundaryConditions.cpp */; };
+		9524F7C41C3CF71F00F47584 /* SecondOrderOde.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9524F7C21C3CF71F00F47584 /* SecondOrderOde.cpp */; };
+		9524F7C71C3CFBD500F47584 /* FiniteDifferenceGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9524F7C51C3CFBD500F47584 /* FiniteDifferenceGrid.cpp */; };
+		9524F7CA1C3CFF7800F47584 /* BvpOde.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9524F7C81C3CFF7800F47584 /* BvpOde.cpp */; };
+		9524F7D41C3D00D800F47584 /* Matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9524F7D21C3D00D800F47584 /* Matrix.cpp */; };
+		9524F7DA1C3D014300F47584 /* LinearSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9524F7D81C3D014300F47584 /* LinearSystem.cpp */; };
+		9524F7DD1C3D015000F47584 /* Vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9524F7DB1C3D015000F47584 /* Vector.cpp */; };
+		95B37C431C3CF28400F4394D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95B37C421C3CF28400F4394D /* main.cpp */; };
+		95FECBA71C451C140099FB3C /* PoissonEquation2D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95FECBA51C451C140099FB3C /* PoissonEquation2D.cpp */; };
+		95FECBAA1C451E670099FB3C /* BoundaryConditions2D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95FECBA81C451E670099FB3C /* BoundaryConditions2D.cpp */; };
+		95FECBAD1C4523D00099FB3C /* FiniteDifferenceGrid2D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95FECBAB1C4523D00099FB3C /* FiniteDifferenceGrid2D.cpp */; };
+		95FECBB31C452CA60099FB3C /* PoissonEquation2DSolve.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95FECBB11C452CA60099FB3C /* PoissonEquation2DSolve.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		95B37C3D1C3CF28400F4394D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9524F7BC1C3CF67A00F47584 /* BoundaryConditions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BoundaryConditions.cpp; sourceTree = "<group>"; };
+		9524F7BD1C3CF67A00F47584 /* BoundaryConditions.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BoundaryConditions.hpp; sourceTree = "<group>"; };
+		9524F7C21C3CF71F00F47584 /* SecondOrderOde.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SecondOrderOde.cpp; sourceTree = "<group>"; };
+		9524F7C31C3CF71F00F47584 /* SecondOrderOde.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SecondOrderOde.hpp; sourceTree = "<group>"; };
+		9524F7C51C3CFBD500F47584 /* FiniteDifferenceGrid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FiniteDifferenceGrid.cpp; sourceTree = "<group>"; };
+		9524F7C61C3CFBD500F47584 /* FiniteDifferenceGrid.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FiniteDifferenceGrid.hpp; sourceTree = "<group>"; };
+		9524F7C81C3CFF7800F47584 /* BvpOde.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BvpOde.cpp; sourceTree = "<group>"; };
+		9524F7C91C3CFF7800F47584 /* BvpOde.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BvpOde.hpp; sourceTree = "<group>"; };
+		9524F7D21C3D00D800F47584 /* Matrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Matrix.cpp; path = LinearSystem/Matrix.cpp; sourceTree = "<group>"; };
+		9524F7D31C3D00D800F47584 /* Matrix.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Matrix.hpp; path = LinearSystem/Matrix.hpp; sourceTree = "<group>"; };
+		9524F7D81C3D014300F47584 /* LinearSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LinearSystem.cpp; path = LinearSystem/LinearSystem.cpp; sourceTree = "<group>"; };
+		9524F7D91C3D014300F47584 /* LinearSystem.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = LinearSystem.hpp; path = LinearSystem/LinearSystem.hpp; sourceTree = "<group>"; };
+		9524F7DB1C3D015000F47584 /* Vector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Vector.cpp; path = LinearSystem/Vector.cpp; sourceTree = "<group>"; };
+		9524F7DC1C3D015000F47584 /* Vector.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Vector.hpp; path = LinearSystem/Vector.hpp; sourceTree = "<group>"; };
+		95B37C3F1C3CF28400F4394D /* BvpOde */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BvpOde; sourceTree = BUILT_PRODUCTS_DIR; };
+		95B37C421C3CF28400F4394D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		95FECBA51C451C140099FB3C /* PoissonEquation2D.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PoissonEquation2D.cpp; path = PoissonEquation2D/PoissonEquation2D.cpp; sourceTree = "<group>"; };
+		95FECBA61C451C140099FB3C /* PoissonEquation2D.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = PoissonEquation2D.hpp; path = PoissonEquation2D/PoissonEquation2D.hpp; sourceTree = "<group>"; };
+		95FECBA81C451E670099FB3C /* BoundaryConditions2D.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BoundaryConditions2D.cpp; path = PoissonEquation2D/BoundaryConditions2D.cpp; sourceTree = "<group>"; };
+		95FECBA91C451E670099FB3C /* BoundaryConditions2D.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = BoundaryConditions2D.hpp; path = PoissonEquation2D/BoundaryConditions2D.hpp; sourceTree = "<group>"; };
+		95FECBAB1C4523D00099FB3C /* FiniteDifferenceGrid2D.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FiniteDifferenceGrid2D.cpp; path = PoissonEquation2D/FiniteDifferenceGrid2D.cpp; sourceTree = "<group>"; };
+		95FECBAC1C4523D00099FB3C /* FiniteDifferenceGrid2D.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = FiniteDifferenceGrid2D.hpp; path = PoissonEquation2D/FiniteDifferenceGrid2D.hpp; sourceTree = "<group>"; };
+		95FECBAF1C4523E90099FB3C /* Node2D.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Node2D.hpp; path = PoissonEquation2D/Node2D.hpp; sourceTree = "<group>"; };
+		95FECBB11C452CA60099FB3C /* PoissonEquation2DSolve.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PoissonEquation2DSolve.cpp; path = PoissonEquation2D/PoissonEquation2DSolve.cpp; sourceTree = "<group>"; };
+		95FECBB21C452CA60099FB3C /* PoissonEquation2DSolve.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = PoissonEquation2DSolve.hpp; path = PoissonEquation2D/PoissonEquation2DSolve.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95B37C3C1C3CF28400F4394D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9524F7CE1C3D007600F47584 /* LinearSystem */ = {
+			isa = PBXGroup;
+			children = (
+				9524F7D81C3D014300F47584 /* LinearSystem.cpp */,
+				9524F7D91C3D014300F47584 /* LinearSystem.hpp */,
+				9524F7D21C3D00D800F47584 /* Matrix.cpp */,
+				9524F7D31C3D00D800F47584 /* Matrix.hpp */,
+				9524F7DB1C3D015000F47584 /* Vector.cpp */,
+				9524F7DC1C3D015000F47584 /* Vector.hpp */,
+			);
+			name = LinearSystem;
+			sourceTree = "<group>";
+		};
+		95B37C361C3CF28400F4394D = {
+			isa = PBXGroup;
+			children = (
+				95FECBA11C451B7B0099FB3C /* PoissonEquation2D */,
+				9524F7CE1C3D007600F47584 /* LinearSystem */,
+				95B37C411C3CF28400F4394D /* BvpOde */,
+				95B37C401C3CF28400F4394D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95B37C401C3CF28400F4394D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95B37C3F1C3CF28400F4394D /* BvpOde */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95B37C411C3CF28400F4394D /* BvpOde */ = {
+			isa = PBXGroup;
+			children = (
+				95B37C421C3CF28400F4394D /* main.cpp */,
+				9524F7C21C3CF71F00F47584 /* SecondOrderOde.cpp */,
+				9524F7C31C3CF71F00F47584 /* SecondOrderOde.hpp */,
+				9524F7C81C3CFF7800F47584 /* BvpOde.cpp */,
+				9524F7C91C3CFF7800F47584 /* BvpOde.hpp */,
+				9524F7C51C3CFBD500F47584 /* FiniteDifferenceGrid.cpp */,
+				9524F7C61C3CFBD500F47584 /* FiniteDifferenceGrid.hpp */,
+				9524F7BC1C3CF67A00F47584 /* BoundaryConditions.cpp */,
+				9524F7BD1C3CF67A00F47584 /* BoundaryConditions.hpp */,
+			);
+			path = BvpOde;
+			sourceTree = "<group>";
+		};
+		95FECBA11C451B7B0099FB3C /* PoissonEquation2D */ = {
+			isa = PBXGroup;
+			children = (
+				95FECBAF1C4523E90099FB3C /* Node2D.hpp */,
+				95FECBAB1C4523D00099FB3C /* FiniteDifferenceGrid2D.cpp */,
+				95FECBAC1C4523D00099FB3C /* FiniteDifferenceGrid2D.hpp */,
+				95FECBA51C451C140099FB3C /* PoissonEquation2D.cpp */,
+				95FECBA61C451C140099FB3C /* PoissonEquation2D.hpp */,
+				95FECBA81C451E670099FB3C /* BoundaryConditions2D.cpp */,
+				95FECBA91C451E670099FB3C /* BoundaryConditions2D.hpp */,
+				95FECBB11C452CA60099FB3C /* PoissonEquation2DSolve.cpp */,
+				95FECBB21C452CA60099FB3C /* PoissonEquation2DSolve.hpp */,
+			);
+			name = PoissonEquation2D;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95B37C3E1C3CF28400F4394D /* BvpOde */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95B37C461C3CF28400F4394D /* Build configuration list for PBXNativeTarget "BvpOde" */;
+			buildPhases = (
+				95B37C3B1C3CF28400F4394D /* Sources */,
+				95B37C3C1C3CF28400F4394D /* Frameworks */,
+				95B37C3D1C3CF28400F4394D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BvpOde;
+			productName = BvpOde;
+			productReference = 95B37C3F1C3CF28400F4394D /* BvpOde */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95B37C371C3CF28400F4394D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Lencerf;
+				TargetAttributes = {
+					95B37C3E1C3CF28400F4394D = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 95B37C3A1C3CF28400F4394D /* Build configuration list for PBXProject "BvpOde" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 95B37C361C3CF28400F4394D;
+			productRefGroup = 95B37C401C3CF28400F4394D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95B37C3E1C3CF28400F4394D /* BvpOde */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95B37C3B1C3CF28400F4394D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9524F7D41C3D00D800F47584 /* Matrix.cpp in Sources */,
+				9524F7DA1C3D014300F47584 /* LinearSystem.cpp in Sources */,
+				95FECBA71C451C140099FB3C /* PoissonEquation2D.cpp in Sources */,
+				95FECBB31C452CA60099FB3C /* PoissonEquation2DSolve.cpp in Sources */,
+				95B37C431C3CF28400F4394D /* main.cpp in Sources */,
+				9524F7C71C3CFBD500F47584 /* FiniteDifferenceGrid.cpp in Sources */,
+				95FECBAA1C451E670099FB3C /* BoundaryConditions2D.cpp in Sources */,
+				9524F7BE1C3CF67A00F47584 /* BoundaryConditions.cpp in Sources */,
+				95FECBAD1C4523D00099FB3C /* FiniteDifferenceGrid2D.cpp in Sources */,
+				9524F7C41C3CF71F00F47584 /* SecondOrderOde.cpp in Sources */,
+				9524F7DD1C3D015000F47584 /* Vector.cpp in Sources */,
+				9524F7CA1C3CFF7800F47584 /* BvpOde.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		95B37C441C3CF28400F4394D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		95B37C451C3CF28400F4394D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		95B37C471C3CF28400F4394D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		95B37C481C3CF28400F4394D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_OPTIMIZATION_LEVEL = s;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95B37C3A1C3CF28400F4394D /* Build configuration list for PBXProject "BvpOde" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95B37C441C3CF28400F4394D /* Debug */,
+				95B37C451C3CF28400F4394D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95B37C461C3CF28400F4394D /* Build configuration list for PBXNativeTarget "BvpOde" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95B37C471C3CF28400F4394D /* Debug */,
+				95B37C481C3CF28400F4394D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95B37C371C3CF28400F4394D /* Project object */;
+}
