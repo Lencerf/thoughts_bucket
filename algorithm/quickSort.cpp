@@ -89,18 +89,65 @@ void quickSortE(std::vector<T> &v) {
     quickSort(v, v.begin(), v.end()-1);
 }
 
+template <typename T>
+void quickSortLomuto(typename std::vector<T>::iterator low, typename std::vector<T>::iterator high) {
+    if (low >= high) {
+        return;
+    }
+    auto pivot = *high;
+    auto i = low;
+    for (auto j = low; j < high; j++) {
+        if (*j <= pivot) {
+            std::swap(*i, *j);
+            i++;
+        }
+    }
+    std::swap(*i, *high);
+    quickSortLomuto<T>(low, i - 1);
+    quickSortLomuto<T>(i + 1, high);
+}
+
+template <typename T>
+void quickSortL(std::vector<T> &v) {
+    quickSortLomuto<T>(v.begin(), v.end() - 1);
+}
+/*
+std::vector<int>::iterator partitionLomuto(std::vector<int>::iterator low, std::vector<int>::iterator high) {
+    auto pivot = *high;
+    auto i = low;
+    for (auto j = low; j < high; j++) {
+        if (*j <= pivot) {
+            std::swap(*i, *j);
+            i++;
+        }
+    }
+    std::swap(*i, *high);
+    return i;
+}
+
+void quickSortLomuto(std::vector<int> &v, typename std::vector<int>::iterator low, typename std::vector<int>::iterator high) {
+    if (low >= high) {
+        return;
+    }
+    auto p = partitionLomuto(low, high);
+    quickSortLomuto(v, low, p - 1);
+    quickSortLomuto(v, p + 1, high);
+}
+*/
+
 int main(int argc, const char* argv[]) {
     std::vector<int> testVector;
     srand((unsigned)time(NULL));
-    for(int i = 0; i < 15; ++i) {
+    const int N = 151;
+    for(int i = 0; i < N; ++i) {
         testVector.push_back(rand());
     }
-    quickSortE(testVector);
+    quickSortL(testVector);
     //printVector(testVector);
     //std::cout << "sorted vector:\n";
     //printVector(sorted);
     if (isSorted(testVector)) {
-        std::cout << "test pass\n";
+        std::cout << N << " tests pass\n";
     } else {
         std::wcerr << "test failed!\n";
     }
