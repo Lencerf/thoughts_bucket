@@ -43,6 +43,10 @@
 *.aux
 *.log
 *.pdf
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.xdv
 
 # Xcode
 .DS_Store
